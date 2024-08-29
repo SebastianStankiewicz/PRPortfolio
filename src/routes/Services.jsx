@@ -1,5 +1,5 @@
 import React from "react";
-
+import Footer from "../components/Footer";
 import {
   LuThumbsUp,
   LuPen,
@@ -13,19 +13,19 @@ import ServiceCard from "../components/serviceGrid/serviceCard";
 
 import graphic from "../graphics/serviceWave.svg";
 
-
-import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <>
       <div
-        className="hero"
+        className="hero min-h-screen"
         style={{
           backgroundImage: `url(${graphic})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center bottom",
         }}
 
       >
-        <div >
+        <div className="" >
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4" >
             <ServiceCard
               title={"Social media"}
@@ -71,6 +71,10 @@ const Services = () => {
           </div>
         </div>
       </div>
+
+      <footer className="mt-12">
+        <Footer />
+      </footer>
     </>
   );
 };

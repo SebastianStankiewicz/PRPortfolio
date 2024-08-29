@@ -6,8 +6,7 @@ import ServiceCardCara from "../components/serviceCarousel/ServiceCardCara";
 import Footer from "../components/Footer";
 
 import GetInTouch from "../components/pageFiller/GetInTouch";
-import FloatingShapes from "../components/FloatingShapes";
-import { motion } from "framer-motion";
+
 
 import Lines from "../graphics/shapes/lines.svg";
 
@@ -19,7 +18,7 @@ const Home = () => {
       </header>
 
       <div className="min-h-screen flex flex-col items-center justify-center ">
-        <div className="text-3xl">Three decades of experience</div>
+        <div className="text-3xl">Three decades of experience.</div>
         <ServiceCardCara />
 
         <div className="flex flex-row gap-10">

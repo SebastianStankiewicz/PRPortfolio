@@ -17,12 +17,11 @@ const WelcomeHero = () => {
       src={headShot}
       className="max-w-sm rounded-full shadow-2xl" />
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">
+            <h1 className="mb-5 text-5xl text-transparent font-bold bg-gradient-to-r from-gray-800 via-slate-700 to-gray-900 bg-clip-text ">
               Communications, Marketing, PR and Media Relations
             </h1>
-            <p className="mb-5">
-              With more than three decades’ experience working in communications
-              and marketing in London, Los Angeles and Somerset, I can craft
+            <p className="mb-5 text-2xl">
+              I can craft
               your message, capture the attention of the media, deliver it to
               the right people at the right time, raise your profile, generate
               success and evaluate results.
