@@ -76,10 +76,10 @@ const ServiceCardCara = () => {
         </div>
 
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-          <div className="btn disabled btn-circle">
+          <div className="btn btn-ghost btn-circle">
             ❮
           </div>
-          <div  className="btn btn-circle">
+          <div  className="btn btn-ghost btn-circle">
             ❯
           </div>
         </div>

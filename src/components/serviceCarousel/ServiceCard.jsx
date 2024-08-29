@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const ServiceCard = ({ title, description, icon, longDescription }) => {
+  const modalId = title
   return (
     <>
 <motion.div
@@ -13,14 +14,14 @@ const ServiceCard = ({ title, description, icon, longDescription }) => {
     <h2 className="card-title">{title}</h2>
     <p>{description}</p>
     <div className="card-actions">
-      <button className="btn btn-primary" onClick={() => document.getElementById('modal').showModal()}>
+      <button className="btn btn-primary" onClick={() => document.getElementById(modalId).showModal()}>
         Read more
       </button>
     </div>
   </div>
 </motion.div>
 
-      <dialog id="modal" className="modal modal-bottom sm:modal-middle">
+      <dialog id={modalId} className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">
           <h3 className="font-bold text-lg">{title}</h3>
           <p className="py-4">
