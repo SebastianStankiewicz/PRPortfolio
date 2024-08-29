@@ -4,19 +4,21 @@ import { motion } from "framer-motion";
 const ServiceCard = ({ title, description, icon, longDescription }) => {
   return (
     <>
-      <motion.div
-        whileHover={{ scale: 1.05 }}
-        className="card bg-base-100 w-96 shadow-xl"
-      >
-        <figure className="">{icon}</figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title">{title}</h2>
-          <p>{description}</p>
-          <div className="card-actions">
-          <button className="btn btn-primary" onClick={()=>document.getElementById('modal').showModal()}>Read more</button>
-          </div>
-        </div>
-      </motion.div>
+<motion.div
+  whileHover={{ scale: 1.05 }}
+  className="card bg-base-100 w-96 shadow-sm rounded-lg border border-gray-200"
+>
+  <figure className="text-3xl mt-4">{icon}</figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">{title}</h2>
+    <p>{description}</p>
+    <div className="card-actions">
+      <button className="btn btn-primary" onClick={() => document.getElementById('modal').showModal()}>
+        Read more
+      </button>
+    </div>
+  </div>
+</motion.div>
 
       <dialog id="modal" className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">

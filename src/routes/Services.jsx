@@ -19,7 +19,7 @@ const Services = () => {
   return (
     <>
       <div
-        className="hero "
+        className="hero"
         style={{
           backgroundImage: `url(${graphic})`,
         }}

@@ -21,20 +21,19 @@ const Home = () => {
       <div className="min-h-screen flex flex-col items-center justify-center ">
         <div className="text-3xl">Three decades of experience</div>
         <ServiceCardCara />
-        <div className="gap-10">
-          <Link className="btn btn-active" to={`services`}>
-            View All Services
-          </Link>
-          <Link className="btn btn-secondary" to={`contact`}>
-            Contact me
-          </Link>
 
+        <div className="flex flex-row gap-10">
+          <div>
+            <Link className="btn btn-active" to={`services`}>
+              View All Services
+            </Link>
+          </div>
 
-
-
-
-
-
+          <div>
+            <Link className="btn btn-secondary" to={`contact`}>
+              Contact me
+            </Link>
+          </div>
         </div>
       </div>
 
