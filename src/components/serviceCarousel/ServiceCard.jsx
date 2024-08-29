@@ -14,7 +14,7 @@ const ServiceCard = ({ title, description, icon, longDescription }) => {
     <h2 className="card-title">{title}</h2>
     <p>{description}</p>
     <div className="card-actions">
-      <button className="btn btn-primary" onClick={() => document.getElementById(modalId).showModal()}>
+      <button className="btn btn-outline" onClick={() => document.getElementById(modalId).showModal()}>
         Read more
       </button>
     </div>

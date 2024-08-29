@@ -30,9 +30,11 @@ const root = () => {
                 </svg>
               </label>
             </div>
-            <div className="mx-2 flex-1 px-2 font-bold text-3xl bg-gradient-to-r from-gray-800 via-slate-700 to-gray-900 bg-clip-text text-transparent">Baker-Bates PR</div>
+            <div className="mx-2 flex-1 px-2 font-bold text-3xl bg-gradient-to-r from-gray-800 via-slate-700 to-gray-900 bg-clip-text text-transparent">
+            <Link to={`/`}>Baker-Bates PR</Link>
+              </div>
             <div className="hidden flex-none lg:block">
-              <ul className="menu menu-horizontal">
+              <ul className="menu menu-horizontal text-2xl">
                 {/* Navbar menu content here */}
                 <li>
                   <Link to={`/`}>Home</Link>

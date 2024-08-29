@@ -7,7 +7,6 @@ import Footer from "../components/Footer";
 
 import GetInTouch from "../components/pageFiller/GetInTouch";
 
-
 import Lines from "../graphics/shapes/lines.svg";
 
 const Home = () => {
@@ -18,12 +17,13 @@ const Home = () => {
       </header>
 
       <div className="min-h-screen flex flex-col items-center justify-center ">
-        <div className="text-3xl">Three decades of experience.</div>
+        <div className="text-5xl font-semibold z-1">Three decades of experience</div>
+        <br></br>
         <ServiceCardCara />
 
         <div className="flex flex-row gap-10">
           <div>
-            <Link className="btn btn-active" to={`services`}>
+            <Link className="btn btn-secondary" to={`services`}>
               View All Services
             </Link>
           </div>
@@ -45,7 +45,7 @@ const Home = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="relative z-10">
+        <div className="relative z-10 mx-auto max-w-screen-md">
           <GetInTouch />
         </div>
       </div>
