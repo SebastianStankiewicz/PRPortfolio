@@ -41,7 +41,7 @@ const Home = () => {
       <div
         className="relative min-h-screen flex flex-col items-center justify-center bg-gray-100"
         style={{
-          backgroundImage: `url(${Lines})`,
+          backgroundImage: `url(graphics/shapes/lines.svg)`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",

@@ -2,7 +2,6 @@ import React from "react";
 
 import dog from "../graphics/dog.jpeg";
 
-import aboutmewave from "../graphics/aboutmewave.svg";
 import Footer from "../components/Footer";
 
 const About = () => {

@@ -19,7 +19,7 @@ const Services = () => {
       <div
         className="hero min-h-screen"
         style={{
-          backgroundImage: `url(${graphic})`,
+          backgroundImage: `url(/graphics/servicewave.svg)`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center bottom",
         }}
