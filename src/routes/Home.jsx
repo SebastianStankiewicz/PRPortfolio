@@ -11,12 +11,14 @@ import Lines from "../graphics/shapes/lines.svg";
 
 const Home = () => {
   return (
-    <div className="flex flex-col min-h-screen">
-      <header className="mb-8">
+    <div className="flex flex-col min-h-screen justify-center">
+      <header className="mb-8 justify-center">
         <WelcomeHero />
       </header>
 
-      <div className="min-h-screen flex flex-col items-center justify-center ">
+
+
+      <div className="flex flex-col justify-center items-center min-h-screen">
         <div className="text-5xl font-semibold z-1">Three decades of experience</div>
         <br></br>
         <ServiceCardCara />
