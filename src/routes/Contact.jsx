@@ -27,11 +27,11 @@ const Contact = () => {
             <ul className="space-y-4 text-center text-gray-700">
               <li className="flex justify-center items-center space-x-2">
                 <span className="font-medium">📞 Phone number:</span>
-                <span>+123 456 7890</span>
+                <span>07939 139913</span>
               </li>
               <li className="flex justify-center items-center space-x-2">
                 <span className="font-medium">✉️ Email:</span>
-                <span>example@email.com</span>
+                <span>harriet@bakerbates.com</span>
               </li>
               <li className="flex justify-center items-center space-x-2">
                 <span className="font-medium">🔗 LinkedIn:</span>

@@ -23,10 +23,9 @@ const Services = () => {
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center bottom",
         }}
-
       >
-        <div className="" >
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4" >
+        <div className="">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
             <ServiceCard
               title={"Social media"}
               description={
@@ -68,6 +67,34 @@ const Services = () => {
                 "Whatever your industry, connecting with government can only help broaden your contacts, connections with stakeholders, increase your visibility and help you make your mark. There are more than 300 All Party Parliamentary Groups in Parliament, focusing on a huge range of industries, topics, issues, nations and more. APPGs hold regular cross-party meetings, networking events and informal debates and discussion, bringing together parliamentarians and stakeholders. Are you involved? If not, let me introduce you."
               }
             />
+          </div>
+          <div className="text-3xl flex justify-center">Affiliations</div>
+          <div className="flex justify-center gap-6 p-4">
+            <div className="card bg-base-100 w-96 shadow-sm rounded-lg border border-gray-200">
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">
+                  Speaker Coaching & Storytelling Training
+                </h2>
+                <p>
+                  Got a big speech coming up and need to perfect your public
+                  speaking and presentation skills? Contact virtuoso speech and
+                  storytelling coach Peter Botting, a world-leading public
+                  speaking practitioner with more than three decades’
+                  experience.{" "}
+                </p>
+                <div className="card-actions">
+                  <a
+                    className="btn btn-outline"
+                    href="https://peterbotting.co.uk"
+                    target="_blank"
+                    rel="noopener"
+                    noreferrer
+                  >
+                    Find Out More
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -16,13 +16,12 @@ const Footer = () => {
   </aside>
   <nav>
     <h6 className="footer-title">Get in touch</h6>
-    <a className="">+44 123456789</a>
-    <a className="link link-hover" href="mailto:example@gmail.com" >example@gmail.com</a>
+    <a className="">07939 139913</a>
+    <a className="link link-hover" href="mailto:harriet@bakerbates.com">harriet@bakerbates.com</a>
   </nav>
   <nav>
     <h6 className="footer-title">Keep in touch</h6>
-    <a className="link link-hover">LinkedIn</a>
-    <a className="link link-hover">Twitter</a>
+    <a className="link link-hover" href='https://www.linkedin.com/in/harrietbakerbates-'>LinkedIn</a>
   </nav>
 </footer>
     

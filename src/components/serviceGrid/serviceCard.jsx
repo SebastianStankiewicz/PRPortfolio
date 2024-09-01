@@ -7,7 +7,7 @@ const ServiceCard = ({title, description}) => {
       <motion.div className="card bg-base-100 w-96 shadow-xl">
         <div className="card-body items-center text-center">
           <h2 className="card-title">{title}</h2>
-          <p>{description}</p>
+          <p dangerouslySetInnerHTML={{ __html: description }} />
         </div>
       </motion.div>
     </>
