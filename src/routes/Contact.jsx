@@ -40,7 +40,7 @@ const Contact = () => {
                     href="https://www.linkedin.com/in/your-profile"
                     className="text-blue-500 underline"
                   >
-                    linkedin.com/in/your-profile
+                    https://www.linkedin.com/in/harrietbakerbates-
                   </a>
                 </span>
               </li>

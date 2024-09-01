@@ -10,6 +10,14 @@ import SanSebastian from "../companyLogos/SanSebastian.png";
 import SeedHub from "../companyLogos/SeedHub.png";
 import Venice from "../companyLogos/Venice.png";
 
+import Tristar from "../companyLogos/tristar.png"
+import HomeEntertainment from "../companyLogos/HomeEntertainment.jpeg"
+import Optimum from "../companyLogos/optimum.png"
+import SWS from "../companyLogos/sws.png"
+import somersetPopUp from "../companyLogos/somersetPopUp.jpeg"
+import houseOfCommons from "../companyLogos/houseOfCommons.png"
+
+
 const Clients = () => {
   return (
     <>
@@ -20,12 +28,6 @@ const Clients = () => {
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
       <div className="flex justify-center items-center">
         <img src={Aardman} alt="Aardman" className="h-24 object-contain" />
-      </div>
-      <div className="flex justify-center items-center">
-        <img src={Berlin} alt="Berlin" className="h-24 object-contain" />
-      </div>
-      <div className="flex justify-center items-center">
-        <img src={Cannes} alt="Cannes" className="h-24 object-contain" />
       </div>
       <div className="flex justify-center items-center">
         <img
@@ -44,18 +46,33 @@ const Clients = () => {
           className="h-24 object-contain"
         />
       </div>
-      <div className="flex justify-center items-center">
-        <img
-          src={SanSebastian}
-          alt="San Sebastian"
-          className="h-24 object-contain"
-        />
-      </div>
+
       <div className="flex justify-center items-center">
         <img src={SeedHub} alt="SeedHub" className="h-24 object-contain" />
       </div>
+
       <div className="flex justify-center items-center">
-        <img src={Venice} alt="Venice" className="h-24 object-contain" />
+        <img src={Tristar} alt="Tristar" className="h-24 object-contain" />
+      </div>
+
+      <div className="flex justify-center items-center">
+        <img src={HomeEntertainment} alt="20 century fox" className="h-24 object-contain" />
+      </div>
+
+      <div className="flex justify-center items-center">
+        <img src={Optimum} alt="Optimum releasing" className="h-24 object-contain" />
+      </div>
+
+      <div className="flex justify-center items-center">
+        <img src={SWS} alt="South west screen" className="h-24 object-contain" />
+      </div>
+
+      <div className="flex justify-center items-center">
+        <img src={somersetPopUp} alt="Somerst collective pop-up shop" className="h-24 object-contain" />
+      </div>
+
+      <div className="flex justify-center items-center">
+        <img src={houseOfCommons} alt="House of commons" className="h-24 object-contain" />
       </div>
     </div>
     </div>
