@@ -36,7 +36,7 @@ const Services = () => {
             <ServiceCard
               title={"Press & Publicity"}
               description={
-                "Journalists are very busy people, often with short attention spans. Your news or announcement must capture their attention in the first couple of seconds; it has to be instantly readable, grammatically accurate and – most importantly – engaging. If not, the press release goes into the bin. I’ve been writing press releases for decades and I know how to package information in a way which rapidly spikes media interest. They are looking for a carefully-crafted, unique story which will appeal to their audience / readership."
+                "Journalists are busy people with short attention spans. Your announcement needs instantly to capture their attention, be engaging, readable and grammatically correct or it’s heading for the bin. I’ve been writing press releases for decades and know how to package information in a way which spikes media interest – what they’re looking for is a carefully-crafted, unique story which will appeal to their audience/readership."
               }
             />
 
@@ -50,7 +50,7 @@ const Services = () => {
             <ServiceCard
               title={"Media Management"}
               description={
-                "It’s not enough just to fling out a press release and hope for the best. Are you targeting the right journalists? Are you giving them what they need? Journalists have questions, need background information, images, interview  opportunities and citations to make their job easier. They need to know they can get those critical last-minute details when they’re on a tight deadline. Having a close professional relationship with a PR gives them confidence that they’ll get all the help they need, speedily, when they want it. And consequently, that gets you the valuable exposure you need."
+                "It’s not enough just to fling out a press release. Are you targeting the right journalists? Giving them what they need? Journalists have questions, need background information, images, interview opportunities and citations to make their job easier. On a tight deadline, they need those critical details fast. Having a trusted connection with a PR gives them confidence that they’ll get everything they need, speedily."
               }
             />
 
@@ -64,7 +64,7 @@ const Services = () => {
             <ServiceCard
               title={"Government Relations"}
               description={
-                "Whatever your industry, connecting with government can only help broaden your contacts, connections with stakeholders, increase your visibility and help you make your mark. There are more than 300 All Party Parliamentary Groups in Parliament, focusing on a huge range of industries, topics, issues, nations and more. APPGs hold regular cross-party meetings, networking events and informal debates and discussion, bringing together parliamentarians and stakeholders. Are you involved? If not, let me introduce you."
+                "Whatever your industry, connecting with government helps build your contacts and increases your visibility. There are more than 300 All Party Parliamentary Groups, focussing on a wide range of industries, topics, issues, countries and more. APPGs hold regular cross-party meetings, networking events, debates and discussion, bringing together parliamentarians with the private and public sector. Are you involved? If not, let me introduce you."
               }
             />
           </div>
@@ -76,11 +76,7 @@ const Services = () => {
                   Speaker Coaching & Storytelling Training
                 </h2>
                 <p>
-                  Got a big speech coming up and need to perfect your public
-                  speaking and presentation skills? Contact virtuoso speech and
-                  storytelling coach Peter Botting, a world-leading public
-                  speaking practitioner with more than three decades’
-                  experience.{" "}
+                Speeches, podcasts and panels are great PR opportunities, but you have to get it right. Do you want to boost your public speaking and presentation skills? Upgrade with storytelling and speaker coach Peter Botting, a six-time TEDMED Speaker Coach.{" "}
                 </p>
                 <div className="card-actions">
                   <a

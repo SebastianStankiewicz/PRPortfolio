@@ -4,6 +4,8 @@ import dog from "../graphics/dog.jpeg";
 
 import Footer from "../components/Footer";
 
+import { Link } from "react-router-dom";
+
 const About = () => {
   return (
     <>
@@ -16,7 +18,7 @@ const About = () => {
         {/* Right side: About Me */}
         <div className="w-full lg:w-1/2 p-4 space-y-4 ">
           <h1 className="text-3xl font-bold mb-4">About Me</h1>
-          <div className="text-2xl">
+          <div className="text-xl">
             <p className="mb-4">
               After graduating, I started my career as Publicity Assistant for
               an independent film distributor in London. Relocating to Los
@@ -50,8 +52,26 @@ const About = () => {
               children have flown the nest.
             </p>
           </div>
+
+          <div className="border-2 border-black rounded-lg p-6 bg-white shadow-lg">
+            <p className="mb-4 text-gray-800 text-md">
+              My company logo signals that my approach is to look at things
+              differently, carefully and from all angles – forensically getting
+              under the bonnet of what you need. If you want an effective,
+              reliable, hands-on expert who takes the time to listen and gets
+              the job done, with a sense of humour, then get in touch.
+            </p>
+            <div className="flex justify-center gap-10">
+              <div>
+                <Link className="btn btn-secondary" to={`../contact`}>
+                  Contact me
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
       <footer className="mt-12">
         <Footer />
       </footer>

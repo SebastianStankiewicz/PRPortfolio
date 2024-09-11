@@ -14,7 +14,7 @@ const GetInTouch = () => {
           If you’re seeking to amplify your voice, forge strategic partnerships
           and unleash your creativity, look no further.
         </p>
-        <div className="flex  justify-center gap-10">
+        <div className="flex justify-center gap-10">
           <Link className="btn btn-active btn-block" to={`contact`}>
             Contact me
           </Link>
