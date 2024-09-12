@@ -7,7 +7,7 @@ const ServiceCard = ({ title, description, icon, longDescription }) => {
     <>
 <motion.div
   whileHover={{ scale: 1.05 }}
-  className="card bg-base-100 w-96 shadow-sm rounded-lg border border-gray-200"
+  className="card bg-neutral w-96 shadow-sm rounded-lg border border-info"
 >
   <figure className="text-3xl mt-4">{icon}</figure>
   <div className="card-body items-center text-center">

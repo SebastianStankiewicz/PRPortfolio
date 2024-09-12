@@ -20,13 +20,8 @@ const WelcomeHero = () => {
               Communications, Marketing, PR and Media Relations
             </h1>
             <p className="mb-5 text-2xl font-semibold text-transparent bg-clip-text bg-slate-700 ">
-              I can craft your message, capture the attention of the media,
-              deliver it to the right people at the right time, raise your
-              profile, generate success and evaluate results.
+            I can raise your profile and deliver your message to the right audience, creating a definitive impact with measurable results.
             </p>
-            <Link className="btn btn-secondary" to={`contact`}>
-              Contact me
-            </Link>
           </div>
         </div>
       </div>

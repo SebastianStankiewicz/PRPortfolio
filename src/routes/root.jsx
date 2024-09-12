@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 
-import bakerBatesLogo from "../companyLogos/bakerBatesLogo.png"
+import bakerBatesLogo from "../companyLogos/bakerBatesLogo.png";
 
 const root = () => {
   return (
@@ -33,11 +33,17 @@ const root = () => {
               </label>
             </div>
             <div className="mx-2 flex-1 px-2 font-bold text-3xl bg-gradient-to-r from-gray-800 via-slate-700 to-gray-900 bg-clip-text text-transparent">
-            <Link to={`/`}>            <div className="flex justify-center items-center">
-        <img src={bakerBatesLogo} alt="Optimum releasing" className="h-24 object-contain" />
-      </div></Link>
-
-              </div>
+              <Link to={`/`}>
+                {" "}
+                <div className="flex justify-center items-center">
+                  <img
+                    src={bakerBatesLogo}
+                    alt="Optimum releasing"
+                    className="h-32 object-contain"
+                  />
+                </div>
+              </Link>
+            </div>
             <div className="hidden flex-none lg:block">
               <ul className="menu menu-horizontal text-2xl">
                 {/* Navbar menu content here */}

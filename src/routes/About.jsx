@@ -55,11 +55,7 @@ const About = () => {
 
           <div className="border-2 border-black rounded-lg p-6 bg-white shadow-lg">
             <p className="mb-4 text-gray-800 text-md">
-              My company logo signals that my approach is to look at things
-              differently, carefully and from all angles – forensically getting
-              under the bonnet of what you need. If you want an effective,
-              reliable, hands-on expert who takes the time to listen and gets
-              the job done, with a sense of humour, then get in touch.
+            My logo reflects my approach, which is to look at things differently, carefully and consider all possible angles. If you want an effective, reliable, hands-on expert who takes the time to listen and gets the job done, with a sense of humour, then get in touch
             </p>
             <div className="flex justify-center gap-10">
               <div>

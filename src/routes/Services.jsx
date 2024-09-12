@@ -70,7 +70,7 @@ const Services = () => {
           </div>
           <div className="text-3xl flex justify-center">Affiliations</div>
           <div className="flex justify-center gap-6 p-4">
-            <div className="card bg-base-100 w-96 shadow-sm rounded-lg border border-gray-200">
+            <div className="card bg-neutral w-96 shadow-sm rounded-lg border border-accent">
               <div className="card-body items-center text-center">
                 <h2 className="card-title">
                   Speaker Coaching & Storytelling Training

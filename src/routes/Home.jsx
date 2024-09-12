@@ -16,8 +16,10 @@ const Home = () => {
         <WelcomeHero />
       </header>
 
-      <Clients />
-
+        <div className="z-10 mx-auto ">
+        <Clients />
+      </div>
+   
       <br></br>
 
       <div className="flex flex-col justify-center items-center min-h-screen">
