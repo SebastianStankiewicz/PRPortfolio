@@ -16,10 +16,14 @@ const Home = () => {
         <WelcomeHero />
       </header>
 
+      <Clients />
 
+      <br></br>
 
       <div className="flex flex-col justify-center items-center min-h-screen">
-        <div className="text-5xl font-semibold z-1">Three decades of experience</div>
+        <div className="text-5xl font-semibold z-1">
+          Three decades of experience
+        </div>
         <br></br>
         <ServiceCardCara />
 
@@ -37,24 +41,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      <div
-        className="relative min-h-screen flex flex-col items-center justify-center bg-gray-100"
-        style={{
-          backgroundImage: `url(graphics/shapes/lines.svg)`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
-      >
-        <div className="relative z-10 mx-auto max-w-screen-md">
-          <GetInTouch />
-        </div>
-      </div>
-
-      <br></br>
-
-      <Clients />
 
       <b></b>
 
