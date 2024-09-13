@@ -48,7 +48,7 @@ const About = () => {
 
             <p className="mb-4">
               I’m now based in the beautiful market town of Bruton in south
-              Somerset, with my very friendly Golden Retriever, Michael; my two
+              Somerset, with my very friendly Golden Retriever, Michael. My two
               children have flown the nest.
             </p>
           </div>
