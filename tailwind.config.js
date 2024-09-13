@@ -13,11 +13,11 @@ export default {
       {
         customTheme: {
 
-          secondary: "#78c4a7",   // Muted green, for productivity and reliability
+          secondary: "#00B3B3",   // Muted green, for productivity and reliability
 
           accent: "#a0e3d4",      // Soft teal, to enhance the blue-green theme
       
-          neutral: "#e2f3f8",     // Light blue, for a calm and secure background
+          neutral: "#73C5DD",     // Light blue, for a calm and secure background
       
           "base-100": "#f0fcfc",  // Very light blue-green, for a clean base color
       

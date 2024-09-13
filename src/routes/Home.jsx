@@ -23,7 +23,7 @@ const Home = () => {
       <br></br>
 
       <div className="flex flex-col justify-center items-center min-h-screen">
-        <div className="text-5xl font-semibold z-1">
+        <div className="text-5xl font-semibold z-1 ">
           Three decades of experience
         </div>
         <br></br>

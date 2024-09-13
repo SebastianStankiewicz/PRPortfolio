@@ -29,7 +29,7 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={onSubmit}
-      className="max-w-md mx-auto space-y-4 p-6 bg-info rounded-lg shadow-md"
+      className="max-w-md mx-auto space-y-4 p-6 bg-neutral rounded-lg shadow-md"
     >
       <div className="form-control">
         <label className="label">
