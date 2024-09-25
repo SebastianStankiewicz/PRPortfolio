@@ -1,6 +1,5 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
-import { Link } from "react-router-dom";
 import {
   LuThumbsUp,
   LuPen,

@@ -55,14 +55,16 @@ const About = () => {
 
           <div className="border-2 border-black rounded-lg p-6 bg-neutral shadow-lg">
             <p className="mb-4 text-gray-800 text-md italic">
-            My logo reflects my approach, which is to look at things differently, carefully and consider all possible angles. If you want an effective, reliable, hands-on expert who takes the time to listen and gets the job done, with a sense of humour, then get in touch
+              My logo reflects my approach, which is to look at things
+              differently, carefully and consider all possible angles. If you
+              want an effective, reliable, hands-on expert who takes the time to
+              listen and gets the job done, with a sense of humour, then get in
+              touch
             </p>
             <div className="flex justify-center gap-10">
-              <div>
-                <Link className="btn btn-primary" to={`../contact`}>
-                  Contact me
-                </Link>
-              </div>
+              <Link className="btn btn-primary" to={`../contact`}>
+                Contact me
+              </Link>
             </div>
           </div>
         </div>

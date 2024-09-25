@@ -5,7 +5,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
 import { FaPhoneSquare } from "react-icons/fa";
 
-
 const Contact = () => {
   return (
     <>
@@ -25,26 +24,28 @@ const Contact = () => {
             <ContactForm />
           </div>
 
-          <p className="text-center text-sm text-gray-600 mt-8">Or alternatively</p>
+          <p className="text-center text-sm text-gray-600 mt-8">
+            Or alternatively
+          </p>
 
           <div className="mt-4">
             <ul className="space-y-4 text-center text-gray-700">
               <li className="flex justify-center items-center space-x-2">
-              <div className='text-3xl'>
-        <FaPhoneSquare />
-        </div>
+                <div className="text-3xl">
+                  <FaPhoneSquare />
+                </div>
                 <span>07939 139913</span>
               </li>
               <li className="flex justify-center items-center space-x-2">
-              <div className='text-3xl'>
-        <TfiEmail />
-        </div>
+                <div className="text-3xl">
+                  <TfiEmail />
+                </div>
                 <span>harriet@bakerbates.com</span>
               </li>
               <li className="flex justify-center items-center space-x-2">
-              <div className='text-3xl'>
-        <FaLinkedin />
-        </div>
+                <div className="text-3xl">
+                  <FaLinkedin />
+                </div>
                 <span>
                   <a
                     href="https://www.linkedin.com/in/your-profile"
@@ -59,7 +60,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <footer className="">
+      <footer>
         <Footer />
       </footer>
     </>

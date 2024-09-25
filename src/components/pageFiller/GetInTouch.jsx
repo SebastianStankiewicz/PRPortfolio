@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import cows from "../../graphics/cows.jpeg";
 
+//COMPONENT NOT IN USE
+
 const GetInTouch = () => {
   return (
     <div className="card image-full lg:card-side bg-base-100 shadow-xl ">

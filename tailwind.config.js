@@ -13,19 +13,19 @@ export default {
       {
         customTheme: {
 
-          secondary: "#00B3B3",   // Muted green, for productivity and reliability
+          secondary: "#00B3B3",   // Muted green
 
-          accent: "#a0e3d4",      // Soft teal, to enhance the blue-green theme
+          accent: "#a0e3d4",      // Soft teal
       
-          neutral: "#73C5DD",     // Light blue, for a calm and secure background
+          neutral: "#73C5DD",     // Light blue
       
-          "base-100": "#f0fcfc",  // Very light blue-green, for a clean base color
+          "base-100": "#f0fcfc",  // Very light blue-green
       
-          info: "#64d1e6",        // Bright blue for informational elements
+          info: "#64d1e6",        // Bright blue
       
-          success: "#88f0b0",     // Pastel green for positive feedback
+          success: "#88f0b0",     // Pastel green 
       
-          warning: "#ffdf6b",     // Yellow for warnings, keeping contrast with other colors
+          warning: "#ffdf6b",     // Yellow
       
           error: "#f77d75", 
         },

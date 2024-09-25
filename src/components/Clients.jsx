@@ -1,15 +1,10 @@
 import React from "react";
 
 import Aardman from "../companyLogos/Aardman.png";
-import Berlin from "../companyLogos/Berlin.png";
-import Cannes from "../companyLogos/Cannes.png";
 import LondonFilmFestival from "../companyLogos/LondonFilmFestival.png";
 import PremierPR from "../companyLogos/PremierPR.png";
 import RoderickThomas from "../companyLogos/RoderickThomas.png";
-import SanSebastian from "../companyLogos/SanSebastian.png";
 import SeedHub from "../companyLogos/SeedHub.png";
-import Venice from "../companyLogos/Venice.png";
-
 import Tristar from "../companyLogos/tristar.png"
 import HomeEntertainment from "../companyLogos/HomeEntertainment.jpeg"
 import Optimum from "../companyLogos/optimum.png"
@@ -21,7 +16,7 @@ import houseOfCommons from "../companyLogos/houseOfCommons.png"
 const Clients = () => {
   return (
     <>
-    <div>
+
     <div className="text-3xl font-semibold text-center mb-6 text-transparent bg-clip-text bg-[#001b36]">
             Previous Clients
         </div>
@@ -74,7 +69,6 @@ const Clients = () => {
       <div className="flex justify-center items-center">
         <img src={houseOfCommons} alt="House of commons" className="h-24 object-contain" />
       </div>
-    </div>
     </div>
     </>
   );

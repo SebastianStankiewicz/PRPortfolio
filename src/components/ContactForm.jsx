@@ -1,5 +1,6 @@
 import React from "react";
 
+//Taken from docs - Access key is exposed on purpose to public and is not vunrebility! 
 export default function ContactForm() {
   const [result, setResult] = React.useState("");
 
@@ -109,9 +110,3 @@ export default function ContactForm() {
     </form>
   );
 }
-
-/*           <input type="hidden" name="access_key" value="1909e76c-b5c4-48d0-a071-30f3adbec52f" /> */
-
-//Harriet key - dcfa130c-5f7d-4f8f-93b0-dfb15a600d2d
-
-//Mine - 1909e76c-b5c4-48d0-a071-30f3adbec52f

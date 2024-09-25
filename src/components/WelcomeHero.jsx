@@ -1,7 +1,5 @@
 import React from "react";
-import heroGraphic from "../../public/graphics/heroGraphic.svg";
 import headShot from "../graphics/headshot.jpeg";
-import { Link } from "react-router-dom";
 
 const WelcomeHero = () => {
   return (
