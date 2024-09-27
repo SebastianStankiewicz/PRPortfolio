@@ -16,7 +16,6 @@ import houseOfCommons from "../companyLogos/houseOfCommons.png"
 const Clients = () => {
   return (
     <>
-
     <div className="text-3xl font-semibold text-center mb-6 text-transparent bg-clip-text bg-[#001b36]">
             Previous Clients
         </div>

@@ -18,7 +18,7 @@ const Footer = () => {
       <br />
       Communications, Marketing, PR and Media Relations
     </p>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+    <p>Copyright © {new Date().getFullYear()} - All right reserved.</p>
   </aside>
   <nav>
     <div className="grid grid-flow-col gap-4">
