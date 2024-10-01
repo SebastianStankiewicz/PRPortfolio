@@ -16,7 +16,8 @@
     font-size: 3rem;
     line-height: 1;
     /* color: rgb(68, 35, 177); */
-    color: rgb(201, 175, 8);
+    color: #D7D55B;
+    text-shadow: 2px 2px 4px #414141;
 
     font-family: "Red Rose", serif;
     font-optical-sizing: auto;
@@ -29,7 +30,9 @@
 .text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-    color: rgb(201, 175, 8);
+    /* color: rgb(201, 175, 8); */
+    color: #D7D55B;
+    text-shadow: 2px 2px 4px #414141;
 
     font-family: "Afacad Flux", sans-serif;
     font-optical-sizing: auto;
@@ -109,3 +112,13 @@ html, :host {
 .w-96 {
     width: 20rem;
 }
+
+.card-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+
