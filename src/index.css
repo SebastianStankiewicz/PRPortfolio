@@ -122,3 +122,6 @@ html, :host {
     font-weight: 700;
 }
 
+.max-w-sm {
+    max-width: 20em;
+}
