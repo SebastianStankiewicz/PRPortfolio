@@ -10,7 +10,7 @@ const ServiceCard = ({ title, description, icon, longDescription }) => {
         className="card bg-neutral w-96 shadow-sm rounded-lg border border-primary"
       >
         <figure className="text-3xl mt-4">{icon}</figure>
-        <div className="card-body items-center text-center">
+        <div className="card-body items-center">
           <h2 className="card-title">{title}</h2>
           <p>{description}</p>
           <div className="card-actions">
