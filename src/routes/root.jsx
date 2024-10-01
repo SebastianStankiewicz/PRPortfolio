@@ -38,7 +38,7 @@ const root = () => {
                 <div className="flex justify-center items-center">
                   <img
                     src={bakerBatesLogo}
-                    alt="Optimum releasing"
+                    alt="BakerBates PR logo"
                     className="h-32 object-contain"
                   />
                 </div>
