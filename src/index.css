@@ -16,7 +16,7 @@
     font-size: 3rem;
     line-height: 1;
     /* color: rgb(68, 35, 177); */
-    color: rgb(31, 31, 31);
+    color: rgb(201, 175, 8);
 
     font-family: "Red Rose", serif;
     font-optical-sizing: auto;
@@ -29,6 +29,7 @@
 .text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+    color: rgb(201, 175, 8);
 
     font-family: "Afacad Flux", sans-serif;
     font-optical-sizing: auto;
@@ -93,4 +94,18 @@ html, :host {
     gap: 0.5rem;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.w-80 {
+    width: 10rem;
+}
+
+.w-96 {
+    width: 20rem;
 }

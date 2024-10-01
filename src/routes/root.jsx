@@ -45,7 +45,7 @@ const root = () => {
               </Link>
             </div>
             <div className="hidden flex-none lg:block">
-              <ul className="menu menu-horizontal text-2xl">
+              <ul className="menu menu-horizontal text-3xl">
                 {/* Navbar menu content here */}
                 <li>
                   <Link to={`/`}>Home</Link>
