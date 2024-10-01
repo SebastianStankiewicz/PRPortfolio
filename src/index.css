@@ -2,5 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
+/* Depth of the hero backround  */
+.min-h-screen {
+    min-height: 50vh;
+}
