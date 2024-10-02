@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Depth of the hero backround  */
 .min-h-screen {
     min-height: 50vh;
 }
@@ -15,7 +14,7 @@
 .text-5xl {
     font-size: 3rem;
     line-height: 1.3;
-    /* color: rgb(68, 35, 177); */
+
     color: #D7D55B;
     text-shadow: 2px 2px 4px #414141;
 
@@ -30,7 +29,7 @@
 .text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-    /* color: rgb(201, 175, 8); */
+
     color: #D7D55B;
     text-shadow: 2px 2px 4px #414141;
 
@@ -55,7 +54,6 @@
       "slnt" 0;
 
 }
-
 
 html, :host {
     line-height: 1.5;

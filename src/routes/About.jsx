@@ -17,7 +17,7 @@ const About = () => {
 
         {/* Right side: About Me */}
         <div className="w-full lg:w-1/2 p-4 space-y-4 ">
-          <h1 className="text-3xl font-bold mb-4">About Me</h1>
+          <h1 className="text-3xl font-bold mb-4">Harriet Baker-Bates</h1>
           <div className="text-xl">
             <p className="mb-4">
               After graduating, I started my career as Publicity Assistant for
