@@ -8,7 +8,7 @@ const GetInTouch = () => {
   return (
     <div className="card image-full lg:card-side bg-base-100 shadow-xl ">
       <figure>
-        <img src={cows} alt="Cows" />
+        <img src={cows} alt="Photo of a herd of cows crossing a road on a sunny afternoon." />
       </figure>
       <div className="card-body">
         <h2 className="card-title text-8xl">Get in touch</h2>

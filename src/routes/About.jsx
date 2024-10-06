@@ -12,12 +12,12 @@ const About = () => {
       <div className="flex flex-col-reverse lg:flex-row">
         {/* Left side: Collage of images */}
         <div className="w-full lg:w-1/2 p-4 space-y-4">
-          <img src={dog} className="w-full h-auto rounded-lg shadow-lg" />
+          <img src={dog} className="w-full h-auto rounded-lg shadow-lg" alt="Photo of Harriet's dog with his toungue hanging out. He wears a bandana around his neck." />
         </div>
 
         {/* Right side: About Me */}
         <div className="w-full lg:w-1/2 p-4 space-y-4 ">
-          <h1 className="text-3xl font-bold mb-4">About Me</h1>
+          <h1 className="text-3xl font-bold mb-4">Harriet Baker-Bates</h1>
           <div className="text-xl">
             <p className="mb-4">
               After graduating, I started my career as Publicity Assistant for

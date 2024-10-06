@@ -12,7 +12,7 @@ const Footer = () => {
 
 <footer className="footer footer-center bg-primary text-primary-content p-10">
   <aside>
-  <img src={bakerBatesLogo} alt="Baker bates" className="h-24 object-contain invert" />
+  <img src={bakerBatesLogo} alt="BakerBates PR logo" className="h-24 object-contain invert" />
     <p className="font-bold">
       Baker Bates PR
       <br />

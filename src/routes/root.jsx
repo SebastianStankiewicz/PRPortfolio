@@ -38,14 +38,14 @@ const root = () => {
                 <div className="flex justify-center items-center">
                   <img
                     src={bakerBatesLogo}
-                    alt="Optimum releasing"
+                    alt="BakerBates PR logo"
                     className="h-32 object-contain"
                   />
                 </div>
               </Link>
             </div>
             <div className="hidden flex-none lg:block">
-              <ul className="menu menu-horizontal text-2xl">
+              <ul className="menu menu-horizontal text-3xl">
                 {/* Navbar menu content here */}
                 <li>
                   <Link to={`/`}>Home</Link>

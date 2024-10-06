@@ -16,9 +16,6 @@ const Contact = () => {
         }}
       >
         <div className="max-w-xl mx-auto p-6 bg-white rounded-lg shadow-md space-y-6">
-          <div className="text-5xl font-bold text-center text-gray-800">
-            Get in touch
-          </div>
 
           <div className="mt-4">
             <ContactForm />
@@ -60,7 +57,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <footer>
+      <footer class="contact-lift">
         <Footer />
       </footer>
     </>
